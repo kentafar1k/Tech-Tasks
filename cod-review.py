@@ -38,3 +38,4 @@ p1 = Point(0, 2)
 p2 = Point(0, 0)
 line = Line(p1, p2)
 print(line.length)
+
