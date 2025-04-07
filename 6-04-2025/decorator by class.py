@@ -1,4 +1,4 @@
-import datetime
+import datetime  # точность до милисекунд
 import functools
 
 
