@@ -1,13 +1,17 @@
-class FibonacciIterator:
-    def __init__(self, n):
-        self.n = n
+from itertools import chain
 
-    def __iter__(self):
-        pass
+crazy_list = [9, [10, [11, [12, [13, [14, [15]]]]]]], [16, [[17, [18, [19, [20]]]]]]
 
-    def __next__(self):
-        pass
+result = list(chain.from_iterable(crazy_list))
+print(result)
+
+def sort_list(lst):
+    for element in lst:
+        if isinstance(element, list):
+            yield from sort_list(element)
+        else:
+            yield element
 
 
-for number in FibonacciIterator():
-       print(number)
+ready_list = sort_list(crazy_list)
+print(list(ready_list))
