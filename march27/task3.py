@@ -14,4 +14,4 @@ def sort_list(lst):
 
 
 ready_list = sort_list(crazy_list)
-print(list(ready_list))
+
