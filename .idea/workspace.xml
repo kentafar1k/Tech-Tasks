@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="1305">
-      <change afterPath="$PROJECT_DIR$/tech sobes 7 maksim/tasks.py" afterDir="false" />
+    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="задача 1 с тех собеса">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech sobes 7 maksim/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tech sobes 7 maksim/tasks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.4.executor": "Debug",
-    "Python.decorator by class.executor": "Run",
-    "Python.decorator.executor": "Run",
-    "Python.generator+decorator+send.executor": "Run",
-    "Python.generator.executor": "Run",
-    "Python.singleton через metaclass.executor": "Run",
-    "Python.task1.executor": "Run",
-    "Python.task3.executor": "Debug",
-    "Python.tasks.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/programming/Tech Tasks/tech sobes 7 maksim/tasks.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.decorator by class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator+decorator+send.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.singleton через metaclass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.tasks.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/programming/Tech Tasks/tech sobes 7 maksim/tasks.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="tasks" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tech Tasks" />
@@ -127,6 +127,7 @@
       <workItem from="1747051103093" duration="137000" />
       <workItem from="1747051259845" duration="1832000" />
       <workItem from="1747388424622" duration="156000" />
+      <workItem from="1747388608699" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="1305">
       <option name="closed" value="true" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747153081824</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="задача 1 с тех собеса">
+      <option name="closed" value="true" />
+      <created>1747388623072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747388623072</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1305" />
-    <option name="LAST_COMMIT_MESSAGE" value="1305" />
+    <MESSAGE value="задача 1 с тех собеса" />
+    <option name="LAST_COMMIT_MESSAGE" value="задача 1 с тех собеса" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tech_Tasks$4.coverage" NAME="4 Coverage Results" MODIFIED="1741510971576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
