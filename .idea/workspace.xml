@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="задача 2-3 с тех собеса">
-      <change afterPath="$PROJECT_DIR$/Algoritmi/вставка.py" afterDir="false" />
+    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="quick sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
     "Python.decorator.executor": "Run",
     "Python.generator+decorator+send.executor": "Run",
     "Python.generator.executor": "Run",
+    "Python.quick.executor": "Run",
     "Python.singleton через metaclass.executor": "Run",
     "Python.task1.executor": "Run",
     "Python.task3.executor": "Debug",
@@ -61,7 +61,7 @@
     "Python.вставка.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/programming/Tech Tasks/Algoritmi/вставка.py",
+    "last_opened_file_path": "E:/programming/okna",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +71,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="вставка" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="quick" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tech Tasks" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +86,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algoritmi/вставка.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algoritmi/quick.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +135,7 @@
       <workItem from="1748344337189" duration="185000" />
       <workItem from="1748344533094" duration="41000" />
       <workItem from="1748344711272" duration="50000" />
-      <workItem from="1748870372778" duration="2258000" />
+      <workItem from="1748870372778" duration="4582000" />
     </task>
     <task id="LOCAL-00001" summary="1305">
       <option name="closed" value="true" />
@@ -161,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747389104852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="quick sort 1">
+      <option name="closed" value="true" />
+      <created>1748875244092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748875244092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="quick sort">
+      <option name="closed" value="true" />
+      <created>1748876006261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748876006261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +186,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1305" />
     <MESSAGE value="задача 1 с тех собеса" />
-    <option name="LAST_COMMIT_MESSAGE" value="задача 1 с тех собеса" />
+    <MESSAGE value="quick sort 1" />
+    <MESSAGE value="quick sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick sort" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tech_Tasks$4.coverage" NAME="4 Coverage Results" MODIFIED="1741510971576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -178,7 +196,7 @@
     <SUITE FILE_PATH="coverage/Tech_Tasks$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1746958663288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1745760879463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$generator.coverage" NAME="decorator by class Coverage Results" MODIFIED="1743928996308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Tech_Tasks$Bubble.coverage" NAME="вставка Coverage Results" MODIFIED="1748872087032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tech_Tasks$Bubble.coverage" NAME="quick Coverage Results" MODIFIED="1748875315223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1747389082110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$generator_decorator_send.coverage" NAME="generator Coverage Results" MODIFIED="1743320667402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>

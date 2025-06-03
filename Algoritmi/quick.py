@@ -1,4 +1,4 @@
-arr = [5, 2, 4, 1]
+arr = [5, 2, 4, 1, 6]
 
 def quick_sort(arr):
     if len(arr) <= 1:
