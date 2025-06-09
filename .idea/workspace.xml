@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="quick sort" />
+    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="decor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-03-2025/generator+decorator+send.py" beforeDir="false" afterPath="$PROJECT_DIR$/3/generator+decorator+send.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-03-2025/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/3/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-03-2025/refactoring OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/3/refactoring OOP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-04-2025/decorator by class.py" beforeDir="false" afterPath="$PROJECT_DIR$/2/decorator by class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-04-2025/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/2/decorator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/march27/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/4/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/march27/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/4/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/march27/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/4/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton через metaclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/singleton через metaclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech sobes 7 maksim/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/1/tasks.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,33 +55,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Bubble.executor&quot;: &quot;Run&quot;,
-    &quot;Python.decorator by class.executor&quot;: &quot;Run&quot;,
-    &quot;Python.decorator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generator+decorator+send.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quick.executor&quot;: &quot;Run&quot;,
-    &quot;Python.singleton через metaclass.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.tasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.вставка.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/programming/okna&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.4.executor": "Debug",
+    "Python.Bubble.executor": "Run",
+    "Python.decorator by class.executor": "Run",
+    "Python.decorator.executor": "Run",
+    "Python.generator+decorator+send.executor": "Run",
+    "Python.generator.executor": "Run",
+    "Python.quick.executor": "Run",
+    "Python.singleton через metaclass.executor": "Run",
+    "Python.task1.executor": "Run",
+    "Python.task3.executor": "Debug",
+    "Python.tasks.executor": "Run",
+    "Python.вставка.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/programming/Tech Tasks/singleton через metaclass.py",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="quick" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="singleton через metaclass" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tech Tasks" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +96,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algoritmi/quick.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/singleton через metaclass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,6 +147,7 @@
       <workItem from="1748344711272" duration="50000" />
       <workItem from="1748870372778" duration="4582000" />
       <workItem from="1748950192898" duration="2768000" />
+      <workItem from="1749374374393" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="1305">
       <option name="closed" value="true" />
@@ -176,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748876006261</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8.06">
+      <option name="closed" value="true" />
+      <created>1749374405050</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749374405050</updated>
+    </task>
+    <task id="LOCAL-00007" summary="decor">
+      <option name="closed" value="true" />
+      <created>1749375038682</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749375038682</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,11 +216,14 @@
     <MESSAGE value="задача 1 с тех собеса" />
     <MESSAGE value="quick sort 1" />
     <MESSAGE value="quick sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick sort" />
+    <MESSAGE value="8.06" />
+    <MESSAGE value="decor" />
+    <option name="LAST_COMMIT_MESSAGE" value="decor" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tech_Tasks$4.coverage" NAME="4 Coverage Results" MODIFIED="1741510971576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$class_decorator.coverage" NAME="fabric pattern Coverage Results" MODIFIED="1742718945035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tech_Tasks$quick.coverage" NAME="singleton через metaclass Coverage Results" MODIFIED="1749375589969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1746958663288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1745760879463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$generator.coverage" NAME="decorator by class Coverage Results" MODIFIED="1743928996308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
