@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="resolve flutten">
-      <change afterPath="$PROJECT_DIR$/5/decor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5/decorator-cache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
     "Python.Bubble.executor": "Run",
     "Python.decor.executor": "Run",
     "Python.decorator by class.executor": "Run",
+    "Python.decorator-cache.executor": "Debug",
     "Python.decorator.executor": "Run",
     "Python.flutten.executor": "Run",
     "Python.generator+decorator+send.executor": "Run",
@@ -64,7 +65,7 @@
     "Python.вставка.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/programming/Tech Tasks/5/decor.py",
+    "last_opened_file_path": "E:/programming/Tech Tasks/5/decorator-cache.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +75,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="decor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="decorator-cache" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tech Tasks" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +90,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5/decor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5/decorator-cache.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +146,7 @@
       <workItem from="1749733976505" duration="2137000" />
       <workItem from="1749818321701" duration="1125000" />
       <workItem from="1750584200087" duration="23000" />
-      <workItem from="1750584224420" duration="912000" />
+      <workItem from="1750584224420" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="1305">
       <option name="closed" value="true" />
@@ -235,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749818728285</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="resolve flutten">
+      <option name="closed" value="true" />
+      <created>1750586099645</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750586099645</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,12 +262,23 @@
     <MESSAGE value="resolve flutten" />
     <option name="LAST_COMMIT_MESSAGE" value="resolve flutten" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5/decorator-cache.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tech_Tasks$4.coverage" NAME="4 Coverage Results" MODIFIED="1741510971576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$class_decorator.coverage" NAME="fabric pattern Coverage Results" MODIFIED="1742718945035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$quick.coverage" NAME="singleton через metaclass Coverage Results" MODIFIED="1749375589969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1746958663288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Tech_Tasks$flutten.coverage" NAME="decor Coverage Results" MODIFIED="1750585098519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tech_Tasks$flutten.coverage" NAME="decorator-cache Coverage Results" MODIFIED="1750587924763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1745760879463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$generator.coverage" NAME="decorator by class Coverage Results" MODIFIED="1743928996308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$Bubble.coverage" NAME="quick Coverage Results" MODIFIED="1748875315223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
