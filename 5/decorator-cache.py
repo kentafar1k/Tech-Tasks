@@ -16,4 +16,4 @@ def f1(word):
 
 f1('nigga')
 f1('nigga')
-f1('nigorrrr')
+f1('nigorrr')
