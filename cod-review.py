@@ -1,41 +1,27 @@
-#исправить ошибки
-
-import math
-from abc import ABC, abstractmethod
+"""Задача: найти и исправить 2 ошибки в функции."""
 
 
-class Point:
-    def __init__(self, x, y):
-        self._x = x
-        self._y = y
+def update_list(lst: list[int]=None, value_to_increase: int=1) -> list[int]:
+    """Модифицирует список.
 
-    @property
-    def x(self):
-        return self._x
+    Принимает на вход список и значение, на которое необходимо увеличить кадждый элемент списка.
+    В конец списка добавляет сумму всех элементов списка.
 
-    @property
-    def y(self):
-        return self._y
+    Args:
+        lst (list[int]): исходный список
+        value_to_increase (int): значение, на которое необходимо увеличить каждое значение списка
 
+    Returns:
+        list: итоговый список
+    """
+    if lst is None:
+        lst = []
+    for i in range(len(lst)):
+        lst[i] += value_to_increase
+    sum_ = sum(lst)
+    lst.append(sum_)
+    return lst
 
-class BaseLine(ABC):
-    a: Point
-    b: Point
-
-    @abstractmethod
-    def length(self):
-        return math.dist((a.x, a.y), (b.x, b.y))
-
-
-class Line(BaseLine):
-    def __init__(self, a: Point, b: Point):
-        super().__init__()
-        self.a = a
-        self.b = b
-
-
-p1 = Point(0, 2)
-p2 = Point(0, 0)
-line = Line(p1, p2)
-print(line.length)
+if __name__ == '__main__':
+    print(update_list([1, 2, 3], 2))
 

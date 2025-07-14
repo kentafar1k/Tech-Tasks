@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="resolve flutten">
+    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="шлю">
+      <change afterPath="$PROJECT_DIR$/1/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql_request" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/4/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cod-review.py" beforeDir="false" afterPath="$PROJECT_DIR$/cod-review.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,36 +49,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.4.executor": "Debug",
-    "Python.Bubble.executor": "Run",
-    "Python.decor.executor": "Run",
-    "Python.decorator by class.executor": "Run",
-    "Python.decorator-cache.executor": "Debug",
-    "Python.decorator.executor": "Run",
-    "Python.flutten.executor": "Run",
-    "Python.generator+decorator+send.executor": "Run",
-    "Python.generator.executor": "Run",
-    "Python.quick.executor": "Run",
-    "Python.singleton через metaclass.executor": "Run",
-    "Python.task1.executor": "Run",
-    "Python.task3.executor": "Debug",
-    "Python.tasks.executor": "Run",
-    "Python.вставка.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/programming/Tech Tasks/5/decorator-cache.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Bubble.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cod-review.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.decor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator by class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator-cache.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.decorator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flutten.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator+decorator+send.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quick.executor&quot;: &quot;Run&quot;,
+    &quot;Python.singleton через metaclass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.tasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.вставка.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/programming/Tech Tasks/cod-review.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="decorator-cache" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="cod-review" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tech Tasks" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5/decorator-cache.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cod-review.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +150,11 @@
       <workItem from="1749733976505" duration="2137000" />
       <workItem from="1749818321701" duration="1125000" />
       <workItem from="1750584200087" duration="23000" />
-      <workItem from="1750584224420" duration="4974000" />
+      <workItem from="1750584224420" duration="5038000" />
+      <workItem from="1751477956640" duration="1532000" />
+      <workItem from="1751531888520" duration="2529000" />
+      <workItem from="1751641592221" duration="1183000" />
+      <workItem from="1751994504622" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="1305">
       <option name="closed" value="true" />
@@ -251,7 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750589918425</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="шлю">
+      <option name="closed" value="true" />
+      <created>1750668545605</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750668545605</updated>
+    </task>
+    <task id="LOCAL-00015" summary="шлю">
+      <option name="closed" value="true" />
+      <created>1750668549821</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750668549821</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,9 +292,22 @@
     <MESSAGE value="update" />
     <MESSAGE value="add flutten" />
     <MESSAGE value="resolve flutten" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve flutten" />
+    <MESSAGE value="шлю" />
+    <option name="LAST_COMMIT_MESSAGE" value="шлю" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cod-review.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Tech_Tasks$cod_review.coverage" NAME="cod-review Coverage Results" MODIFIED="1751534664338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$4.coverage" NAME="4 Coverage Results" MODIFIED="1741510971576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$class_decorator.coverage" NAME="fabric pattern Coverage Results" MODIFIED="1742718945035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$quick.coverage" NAME="singleton через metaclass Coverage Results" MODIFIED="1749375589969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

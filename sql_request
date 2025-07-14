@@ -1,0 +1,41 @@
+-- 2.1 Аналитический отчет по продажам
+CREATE VIEW sales_analytics AS
+SELECT
+    o.order_date AS "Дата заказа",
+    COUNT(DISTINCT o.customer_id) AS "Количество уникальных клиентов за день",
+    SUM(o.total_amount) AS "Общая сумма заказов за день",
+    AVG(o.total_amount) AS "Средний чек за день"
+FROM
+    "order" o
+GROUP BY
+    o.order_date;
+
+-- 2.2 ТОП-3 продукта по продажам за последний месяц
+CREATE VIEW top_products_last_month AS
+SELECT
+    oi.product_id AS "ID продукта",
+    SUM(oi.quantity * oi.unit_price) AS "Сумма продаж"
+FROM
+    order_items oi
+JOIN
+    "order" o ON oi.order_id = o.order_id
+WHERE
+    o.order_date >= DATE_TRUNC('month', CURRENT_DATE - INTERVAL '1 month')
+    AND o.order_date < DATE_TRUNC('month', CURRENT_DATE)
+GROUP BY
+    oi.product_id
+ORDER BY
+    "Сумма продаж" DESC
+LIMIT 3;
+
+-- 2.3 Отчет по среднему количеству заказов на клиента за последние 3 месяца
+CREATE VIEW avg_orders_per_customer AS
+SELECT
+    customer_id AS "ID компании",
+    COUNT(order_id) / 3.0 AS "Среднее количество заказов"  -- Деление на 3 месяца
+FROM
+    "order"
+WHERE
+    order_date >= CURRENT_DATE - INTERVAL '3 months'
+GROUP BY
+    customer_id;
