@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="удалил лишнее">
-      <change afterPath="$PROJECT_DIR$/curtial_lst(AAA_A3).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing+defaultdict.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing+defaultdict.py" afterDir="false" />
+    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="+ curtail_str">
+      <change afterPath="$PROJECT_DIR$/deco/deco_time.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
     "Python.4.executor": "Debug",
     "Python.Bubble.executor": "Run",
     "Python.cod-review.executor": "Debug",
+    "Python.curtial_lst(AAA_A3).executor": "Run",
     "Python.decor.executor": "Run",
     "Python.decorator by class.executor": "Run",
     "Python.decorator-cache.executor": "Debug",
@@ -66,7 +66,7 @@
     "Python.вставка.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/programming/Tech Tasks/curtial_lst(AAA_A3).py",
+    "last_opened_file_path": "E:/programming/Tech Tasks/deco/deco_time.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,7 +76,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="curtial_lst(AAA_A3)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="deco_time" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tech Tasks" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +91,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curtial_lst(AAA_A3).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deco/deco_time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +153,7 @@
       <workItem from="1751641592221" duration="1183000" />
       <workItem from="1751994504622" duration="670000" />
       <workItem from="1752478690073" duration="1716000" />
-      <workItem from="1752921396922" duration="1257000" />
+      <workItem from="1752921396922" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="1305">
       <option name="closed" value="true" />
@@ -299,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752922907239</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="+ curtail_str">
+      <option name="closed" value="true" />
+      <created>1752923184807</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1752923184807</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +327,8 @@
     <MESSAGE value="чёто закомитил" />
     <MESSAGE value="дописал на дефолт дикт" />
     <MESSAGE value="удалил лишнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="удалил лишнее" />
+    <MESSAGE value="+ curtail_str" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ curtail_str" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -333,16 +342,17 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Tech_Tasks$class_decorator.coverage" NAME="fabric pattern Coverage Results" MODIFIED="1742718945035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tech_Tasks$curtial_lst_AAA_A3_.coverage" NAME="curtial_lst(AAA_A3) Coverage Results" MODIFIED="1752923114314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tech_Tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1747389082110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$cod_review.coverage" NAME="cod-review Coverage Results" MODIFIED="1751534664338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$4.coverage" NAME="4 Coverage Results" MODIFIED="1741510971576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Tech_Tasks$class_decorator.coverage" NAME="fabric pattern Coverage Results" MODIFIED="1742718945035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$quick.coverage" NAME="singleton через metaclass Coverage Results" MODIFIED="1749375589969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1746958663288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$flutten.coverage" NAME="decorator-cache Coverage Results" MODIFIED="1750587924763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1745760879463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$generator.coverage" NAME="decorator by class Coverage Results" MODIFIED="1743928996308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$Bubble.coverage" NAME="quick Coverage Results" MODIFIED="1748875315223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Tech_Tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1747389082110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tech_Tasks$generator_decorator_send.coverage" NAME="generator Coverage Results" MODIFIED="1743320667402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
