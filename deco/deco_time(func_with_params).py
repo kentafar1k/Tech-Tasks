@@ -20,3 +20,4 @@ def some_func(time_sleep):
 
 some_func = deco(some_func)
 print(some_func(1))
+

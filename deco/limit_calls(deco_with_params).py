@@ -25,3 +25,5 @@ print(some_func())
 print(some_func())
 print(some_func())
 print(some_func())
+
+# some_func = limit_calls(3)(some_func)
