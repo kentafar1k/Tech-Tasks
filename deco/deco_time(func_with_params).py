@@ -5,18 +5,18 @@ import time
 
 def deco(func: Callable):
     @wraps(func)
-    def wrapper():
+    def wrapper(*args, **kwargs):
         start = time.time()
-        res = func()
+        res = func(*args, **kwargs)
         end = time.time()
         print(f"Время выполнения: {end-start}")
         return res
     return wrapper
 
 
-def some_func():
-    time.sleep(0.5)
+def some_func(time_sleep):
+    time.sleep(time_sleep)
     return "ky"
 
 some_func = deco(some_func)
-print(some_func())
+print(some_func(1))
