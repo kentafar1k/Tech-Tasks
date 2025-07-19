@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="чёто закомитил">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing+defaultdict.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing+defaultdict.py" afterDir="false" />
-    </list>
+    <list default="true" id="9a3414ef-4ad1-4838-b812-ee67ae6a93f0" name="Changes" comment="дописал на дефолт дикт" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,35 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.4.executor": "Debug",
-    "Python.Bubble.executor": "Run",
-    "Python.cod-review.executor": "Debug",
-    "Python.decor.executor": "Run",
-    "Python.decorator by class.executor": "Run",
-    "Python.decorator-cache.executor": "Debug",
-    "Python.decorator.executor": "Run",
-    "Python.flutten.executor": "Run",
-    "Python.generator+decorator+send.executor": "Run",
-    "Python.generator.executor": "Run",
-    "Python.quick.executor": "Run",
-    "Python.singleton через metaclass.executor": "Run",
-    "Python.task1.executor": "Run",
-    "Python.task3.executor": "Debug",
-    "Python.tasks.executor": "Run",
-    "Python.вставка.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/programming/Tech Tasks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Bubble.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cod-review.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.decor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator by class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator-cache.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.decorator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flutten.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator+decorator+send.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quick.executor&quot;: &quot;Run&quot;,
+    &quot;Python.singleton через metaclass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.tasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.вставка.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/programming/Tech Tasks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="cod-review" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tech Tasks" />
@@ -153,6 +150,7 @@
       <workItem from="1751641592221" duration="1183000" />
       <workItem from="1751994504622" duration="670000" />
       <workItem from="1752478690073" duration="1716000" />
+      <workItem from="1752921396922" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="1305">
       <option name="closed" value="true" />
@@ -282,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752478967008</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="дописал на дефолт дикт">
+      <option name="closed" value="true" />
+      <created>1752922470644</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752922470644</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +306,8 @@
     <MESSAGE value="resolve flutten" />
     <MESSAGE value="шлю" />
     <MESSAGE value="чёто закомитил" />
-    <option name="LAST_COMMIT_MESSAGE" value="чёто закомитил" />
+    <MESSAGE value="дописал на дефолт дикт" />
+    <option name="LAST_COMMIT_MESSAGE" value="дописал на дефолт дикт" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
