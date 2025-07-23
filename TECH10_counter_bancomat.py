@@ -26,7 +26,7 @@ class Atm:
 
         while True:
             for key, value in self.nominal.items()[-1:]:
-
+                ...
 
 atm = Atm({50: 50, 100: 20, 500: 1, 1000: 20, 2000: 0, 5000: 0})
 print(atm.get_balance())
